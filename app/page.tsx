@@ -174,13 +174,15 @@ const Page = () => {
                 Empowering Innovation in the Andromeda Ecosystem
               </Heading>
               <Text fontSize="xl" opacity={0.9}>
+                {`
                 The Andromeda Open Source Funding initiative supports developers building the future of 
                 decentralized applications. We provide financial resources, technical guidance, and community 
-                support to projects that advance the Andromeda Devnet and expand its capabilities.
+                support to projects that advance the Andromeda Devnet and expand its capabilities.`
+                }
               </Text>
               <Text fontSize="md" opacity={0.8} mt={2}>
-                Connect your wallet to submit a project for funding consideration or explore existing 
-                projects seeking support. Together, we're building the next generation of blockchain technology.
+                {`Connect your wallet to submit a project for funding consideration or explore existing 
+                projects seeking support. Together, we're building the next generation of blockchain technology.`}
               </Text>
               <Button 
                 size="lg" 

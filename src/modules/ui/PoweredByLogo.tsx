@@ -18,6 +18,7 @@ const PoweredByLogo: FC<Props> = (props) => {
                 <Image
                     src='/logo.png'
                     h='6'
+                    alt=""
                 />
                 <Text fontSize='sm' color='white'>
                     Powered by Andromeda
