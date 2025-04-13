@@ -372,7 +372,7 @@ const Page = () => {
                   </Button>
                   <IconButton
                     aria-label="Like project"
-                    icon={FaThumbsUp ? <FaThumbsUp /> as JSX.Element : <></>}
+                    icon={<div>👍</div>}
                     onClick={() => handleLikeProject(index)}
                     colorScheme="blue"
                     variant="outline"
